@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 from sklearn.base import BaseEstimator, TransformerMixin
 import category_encoders as ce
 from transformers import *
